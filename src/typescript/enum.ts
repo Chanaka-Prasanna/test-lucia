@@ -24,7 +24,6 @@ export enum FIREBASE_COLLECTION {
   FAV_RESTAURANTS = "favouriteRestaurants",
 }
 
-export enum BACKEND_ROUTES {
-  UPDATE_USER = `${process.env.NEXT_PUBLIC_API_URL}/auth/update-user-details`,
-}
-// https://travel-ai-backend.onrender.com
+export const BACKEND_ROUTES = {
+  UPDATE_USER: `${process.env.NEXT_PUBLIC_API_URL}/auth/update-user-details`,
+};
